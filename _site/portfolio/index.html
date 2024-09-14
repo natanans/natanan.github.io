@@ -82,7 +82,7 @@
 
   </head>
 
-  <body class="layout--collection wide">
+  <body class="layout--archive wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -104,13 +104,13 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
-                href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
+                href="/index/"
                 
                 
               >Home</a>
             </li><li class="masthead__menu-item">
               <a
-                href="https://mmistakes.github.io/minimal-mistakes/about/"
+                href="/portfolio/"
                 
                 
               >Portfolio</a>
@@ -140,17 +140,68 @@
     
       <h1 id="page-title" class="page__title">Portfolio</h1>
     
-    <p>Sample document listing for the collection <code class="language-plaintext highlighter-rouge">_portfolio</code>.</p>
+    <h2 id="ml-utility-library">ML Utility Library</h2>
 
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/FutureAdLabs/python-mlops/tree/alpha">https://github.com/FutureAdLabs/python-mlops/tree/alpha</a>
+<img src="/assets/images/aws.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
+<img src="/assets/images/google-cloud8906.jpg" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /></p>
 
+<h3 id="introduction">Introduction</h3>
+<p>This Python-based utility project was developed to provide the data science team with a comprehensive set of tools to streamline their workflows and enhance productivity. The goal was to create a library that offered custom tools for preparing environments, managing dependencies, and integrating with various external services, including common databases like MongoDB and MySQL. This utility library addresses common tasks and challenges faced by the team, ensuring consistency and efficiency across different projects.</p>
 
-<div class="entries-grid">
-  
+<h3 id="submodules">Submodules</h3>
 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- **AWS**  
+  Tools for managing AWS resources, including EC2, S3, and EMR clusters, facilitating the team's ability to leverage cloud infrastructure for data analysis, storage, and deployment tasks.
 
+- **Conda**  
+  Scripts for managing Conda environments, ensuring consistent and reproducible setups across projects by handling dependencies efficiently.
 
+- **Git**  
+  Tools to automate common Git tasks and maintain version control best practices, streamlining the development workflow.
 
-</div>
+- **Google**  
+  Integrations with Google APIs like Google Sheets, automating data retrieval and collaboration with seamless access to Google services.
+
+- **LLM (Language Models)**  
+  Integrations with language models (e.g., OpenAI), enabling advanced language processing tasks such as natural language understanding and text generation.
+
+- **Local Environment**  
+  Tools for managing local development environments, mirroring production setups to streamline development.
+
+- **Native Utilities**  
+  Functions for common tasks like date-time operations, file handling, and data parsing, ensuring code reusability and reliability.
+
+- **Slack**  
+  Functions for interacting with Slack, enabling communication and notifications directly within workflows.
+
+- **Database**  
+  Interfaces for MongoDB and MySQL to streamline common database operations like queries, transactions, and data migrations, enhancing data handling efficiency.
+</code></pre></div></div>
+
+<h3 id="outcome">Outcome</h3>
+<p>This project has proven to be a valuable asset, streamlining Python workflows, reducing setup times, and enabling seamless integration with various services. By following best practices and integrating industry-standard tools, I created a robust and scalable utility library that meets the diverse needs of our data science projects. This library promotes collaboration and consistency across the team, leading to more efficient project delivery.</p>
+
+<hr />
+
+<h2 id="real-time-bidding-algorithm">Real Time Bidding Algorithm</h2>
+
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/FutureAdLabs/ttd-bid-algo">https://github.com/FutureAdLabs/ttd-bid-algo</a></p>
+
+<h3 id="introduction-1">Introduction</h3>
+<p>The objective of this project was to build a Machine Learning algorithm using an innovative statistical approach to score advertisement spaces probabilistically and translate these scores into bid values. Factors such as audience appropriateness, client budget, market trends, and ad space performance were considered. This project aims to facilitate real-time bidding for ad inventory, directly impacting financial efficiency in programmatic advertising.</p>
+
+<h3 id="data-engineering">Data Engineering</h3>
+<p>The data engineering phase involved collecting large datasets from a demand-side platform, using Python, SQL, and PySpark. While Snowflake was tested, we opted for AWS Athena for its robustness in processing BigQuery data. Data engineering was critical for building reliable and accurate models.</p>
+
+<h3 id="machine-learning-model-build">Machine Learning Model Build</h3>
+<p>Models were built based on probability distributions for success and cost, focusing on Return on Ad Spend (ROAS). The models dynamically identified appropriate bid values while adjusting to market conditions, ensuring financial optimization of ad campaigns.</p>
+
+<h3 id="mlops">MLOps</h3>
+<p>MLOps practices were employed to validate models, version them, and monitor their performance using MLFlow. Each module generated artifacts to ensure robust and reliable deployments, which were essential for managing significant advertising budgets effectively.</p>
+
+<h3 id="outcome-1">Outcome</h3>
+<p>This project became the core component of Lorenzo, Adludio’s AI-driven platform (<a href="https://www.adsapiens.com/about">Lorenzo AI</a>). It delivers highly targeted, high-performance advertising at scale, and continues to evolve with new business needs, driving successful programmatic advertising campaigns globally.</p>
 
   </div>
 </div>
