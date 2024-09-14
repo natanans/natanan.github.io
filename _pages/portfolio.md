@@ -5,8 +5,9 @@ classes: wide
 permalink: /portfolio/
 ---
 
+---
 ## ML Utility Library
-
+---
 **GitHub Repository:** [https://github.com/FutureAdLabs/python-mlops/tree/alpha](https://github.com/FutureAdLabs/python-mlops/tree/alpha)
 
 <img src="/assets/images/aws.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
@@ -50,7 +51,7 @@ This project has proven to be a valuable asset, streamlining Python workflows, r
 ---
 
 ## Real Time Bidding Algorithm
-
+---
 **GitHub Repository:** [https://github.com/FutureAdLabs/ttd-bid-algo](https://github.com/FutureAdLabs/ttd-bid-algo)
 <img src="/assets/images/pyspark.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
 
@@ -69,8 +70,9 @@ MLOps practices were employed to validate models, version them, and monitor thei
 ### Outcome
 This project became the core component of Lorenzo, Adludio's AI-driven platform ([Lorenzo AI](https://www.adsapiens.com/about)). It delivers highly targeted, high-performance advertising at scale, and continues to evolve with new business needs, driving successful programmatic advertising campaigns globally.
 
+---
 ## CI/CD
-
+---
 **GitHub Repository:** [https://github.com/FutureAdLabs/data-science-cicd/tree/alpha](https://github.com/FutureAdLabs/data-science-cicd/tree/alpha)
 <img src="/assets/images/circleci.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
 
@@ -100,9 +102,9 @@ The CI/CD pipeline was built on CircleCI, automating testing and deployment:
 ### Outcome
 This project became the backbone of my CI/CD operations and has significantly improved deployment efficiency and production stability. The pipeline is now a benchmark for my team, facilitating cross-team collaboration and improving our overall development processes. By integrating industry-standard tools and practices, I built a robust and scalable CI/CD pipeline that meets the needs of our growing company.
 
-
+---
 ## TTD Orchestrator
-
+---
 **GitHub Repository:** [https://github.com/FutureAdLabs/python-ttd-orchestrator](https://github.com/FutureAdLabs/python-ttd-orchestrator)
 <img src="/assets/images/ttd.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
 <img src="/assets/images/openai.png" width="400" height="auto" alt="" align="center" style="padding-top:15px;padding-right: 30px;" /> 
@@ -117,18 +119,18 @@ Around this time, Language Models (LLMs) became available and were incorporated 
 
     - Monitor  
       Uses BigQuery to collect large amounts of data periodically and focuses on monitoring and analyzing the performance of both ad groups and campaigns. Key components include:
-      - **Data Analysis**: Reviews ad space performance, providing insights into which ad spaces yield the best campaign results.
-      - **Pacing Strategies**: Ensures that pacing strategies align with campaign goals without overspending, helping campaigns stay within budget while achieving their objectives.
+      - Data Analysis: Reviews ad space performance, providing insights into which ad spaces yield the best campaign results.
+      - Pacing Strategies: Ensures that pacing strategies align with campaign goals without overspending, helping campaigns stay within budget while achieving their objectives.
 
     - Planner
       Responsible for planning future campaign strategies. This submodule includes:
-      - **Blocklist Strategies**: Develops blocklist strategies at the ad group level to exclude low-performing or harmful ad spaces.
-      - **Bidding Strategies**: Designs optimized bidding strategies based on historical data and projected performance to maximize return on ad spend (ROAS).
-      - **Pacing Strategies**: Plans pacing strategies to ensure steady and effective use of the budget throughout the campaign period.
+      - Blocklist Strategies: Develops blocklist strategies at the ad group level to exclude low-performing or harmful ad spaces.
+      - Bidding Strategies: Designs optimized bidding strategies based on historical data and projected performance to maximize return on ad spend (ROAS).
+      - Pacing Strategies: Plans pacing strategies to ensure steady and effective use of the budget throughout the campaign period.
 
     - Executor
       Manages strategy execution at both ad group and campaign levels, ensuring that all planned actions are carried out accurately and effectively.  
-      - **Strategy Implementation**: Executes the planned strategies on The Trade Desk platform.
+      - Strategy Implementation: Executes the planned strategies on The Trade Desk platform.
 
 ### Technology Stack
 

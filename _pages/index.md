@@ -2,7 +2,7 @@
 title: " "
 layout: archive
 sitemap: true
-permalink: /index/
+permalink: /
 author_profile: true
 classes: wide
 ---
