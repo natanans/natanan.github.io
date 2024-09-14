@@ -1,0 +1,62 @@
+---
+layout: archive
+---
+
+<!-- Add your CV section here -->
+<section class="cv-section">
+  <h1>Natanan Shiferaw</h1>
+  <p><strong>Data Scientist with a specialization in Machine Learning Engineering and MLOps</strong></p>
+  <p>Addis Ababa, Ethiopia</p>
+  <p>
+    <a href="mailto:natananshiferaw@gmail.com">Email</a> | 
+    <a href="https://github.com/natanans">GitHub</a> | 
+    <a href="https://linkedin.com/in/natananshiferaw">LinkedIn</a>
+  </p>
+
+  <h2>Experience</h2>
+  <h3>Senior Machine Learning Engineer</h3>
+  <p>Company Name, Addis Ababa | <em>Jan 2023 - Present</em></p>
+  <ul>
+    <li>Developed and deployed scalable machine learning pipelines.</li>
+    <li>Specialized in MLOps workflows and optimization processes.</li>
+  </ul>
+
+  <h3>Data Scientist</h3>
+  <p>Company Name, Addis Ababa | <em>Jan 2021 - Dec 2022</em></p>
+  <ul>
+    <li>Worked on data analysis, predictive modeling, and algorithm development.</li>
+    <li>Implemented efficient AI model deployment strategies.</li>
+  </ul>
+
+  <h2>Education</h2>
+  <p>BSc, Electrical and Computer Engineering<br />Addis Ababa University | <em>Graduated 2020</em></p>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Python, R, MATLAB</li>
+    <li>Machine Learning, Deep Learning</li>
+    <li>MLOps, AWS, Kubernetes, Docker</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <h3>AI-based Ad Campaign Optimizer</h3>
+  <p>Developed an automated system for optimizing ad campaigns using machine learning algorithms, resulting in a 15% increase in engagement.</p>
+</section>
+
+<!-- Existing Archive Content for Recent Posts -->
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    {% include archive-single.html type=entries_layout %}
+  {% endfor %}
+</div>
+
+{% include paginator.html %}
